@@ -1,0 +1,16 @@
+#root {
+    width:700px;
+    line-height: 0px;
+}
+.normal {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+    background-color: gray;
+    vertical-align: middle;
+}
+.active {
+    background-color: black;
+}
