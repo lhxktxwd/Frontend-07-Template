@@ -86,7 +86,7 @@ const findPath = async(map,start,end)=>{
         if(x === end[0] && y === end[1]){
             const path = [];
             while(x!== start[0] || y!==start[1]){
-                path.push(map[y*100+x])
+                path.push(table[y*100+x])
                 //浏览器里运行无法给x,y赋值具体原因不详
                 // [x,y] = table[y*100+x]
                 // console.log(table[y*100+x]);
