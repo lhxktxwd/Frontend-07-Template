@@ -5,9 +5,9 @@
 1.正则表达式
 
 2.四则运算语法分析算法
-（1）ll算法，程序从左往右处理代码，从左往右进行预测推倒,  将加减乘除以嵌套的方式展示出来.
- (2) 设定加法(<AdditiveExpression>)是一种特殊的乘法，即<MultipliativeExpression>+<MultipliativeExpression>来表示加法
- (3) 设定乘法以<MultipliativeExpression>开头，<Number>结尾，或者是一个单独的<Number>
+-（1）ll算法，程序从左往右处理代码，从左往右进行预测推倒,  将加减乘除以嵌套的方式展示出来.
+- (2) 设定加法(<AdditiveExpression>)是一种特殊的乘法，即<MultipliativeExpression>+<MultipliativeExpression>来表示加法
+- (3) 设定乘法以<MultipliativeExpression>开头，<Number>结尾，或者是一个单独的<Number>
 加减表达式统称为AdditiveExpression
 乘除表达式统称为MultipliativeExpression
 
