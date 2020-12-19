@@ -17,16 +17,21 @@
 >><AdditiveExpression><EOF>
 
 假发运算的表现形式
+<code>
 <AdditiveExpression>
 >><MultipliativeExpression>
 >><AdditiveExpression>+<MultipliativeExpression>
 >><AdditiveExpression>-<MultipliativeExpression>
+</code>
 
 乘法运算表现形式
+<code>
 <MultipliativeExpression>
 >><Number>
 >><MultipliativeExpression>*<Number>
 >><MultipliativeExpression>/<Number>
+</code>
+
 
 本章核心：
 1.regexp.exec
