@@ -18,4 +18,4 @@ insert(word){
 而之前操作的node[c] = Object.create(null)是在断开node与root(或上一次循环设置映射关系的对象)映射关系之前，所以还是有效的赋值。
 
 
-![image](https://www.mdeditor.com/images/logos/markdown.png)
+![image](https://github.com/lhxktxwd/Frontend-07-Template/blob/main/Week04/image.png)
