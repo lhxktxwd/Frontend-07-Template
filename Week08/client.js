@@ -114,9 +114,6 @@ class ResponseParser {
     }
 
     receiveCharactor(charactor) {
-        if(this.isFinished){
-            return
-        }
         if (this.current === this.WAITING_STATUS_LINE) {
             // construct statusLine
             if (charactor === '\r') {
@@ -211,6 +208,9 @@ class ThunkedBodyParser {
                 this.current = this.READING_TRUNK;
             }
         } else if (this.current === this.READING_TRUNK) {
+            if(this.isFinished){
+                return;
+            }
             // collect each line of chunk in content
             this.content.push(charactor);
             this.length--;
