@@ -114,6 +114,9 @@ class ResponseParser {
     }
 
     receiveCharactor(charactor) {
+        if(this.isFinished){
+            return
+        }
         if (this.current === this.WAITING_STATUS_LINE) {
             // construct statusLine
             if (charactor === '\r') {
